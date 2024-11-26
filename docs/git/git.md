@@ -1,0 +1,18 @@
+- git stash //将本次修改暂存
+- git stash list //查看所有暂存
+- git stash pop //将暂存弹出一个
+- git stash drop //将栈顶删除
+- git branch -a 查看本地分支和远端分支
+- git log 查看提交记录
+- git remote add origin https://github.com/username/username.github.io.git 关联远程仓库
+- git push -u origin master 提交到指定的分支
+- git remote -v 查看当前关联的远程仓库
+- git ls-files 查看 git 正在追踪的文件
+
+- git remote rm origin 删除关联的远程仓库
+- git rm -r docs/.vuepress/dist 删除已经被 git 追踪的目录 删除后需要提交
+- 查看公钥
+  - cd ~/.ssh
+  - cat id_rsa.pub
+- 修改 hosts 文件
+  - shift+command+g /etc/hosts
